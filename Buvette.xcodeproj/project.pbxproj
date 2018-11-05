@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC17581021906CFE00E0060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17580F21906CFE00E0060E /* AppDelegate.swift */; };
+		EC17581221906CFE00E0060E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17581121906CFE00E0060E /* ViewController.swift */; };
+		EC17581521906CFE00E0060E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC17581321906CFE00E0060E /* Main.storyboard */; };
+		EC17581721906D1900E0060E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC17581621906D1900E0060E /* Assets.xcassets */; };
+		EC17581A21906D1900E0060E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC17581821906D1900E0060E /* LaunchScreen.storyboard */; };
+		EC17582521906D1900E0060E /* BuvetteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17582421906D1900E0060E /* BuvetteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC17582121906D1900E0060E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC17580421906CFD00E0060E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC17580B21906CFD00E0060E;
+			remoteInfo = Buvette;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC17580C21906CFD00E0060E /* Buvette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buvette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC17580F21906CFE00E0060E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC17581121906CFE00E0060E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC17581421906CFE00E0060E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC17581621906D1900E0060E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC17581921906D1900E0060E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC17581B21906D1900E0060E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC17582021906D1900E0060E /* BuvetteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuvetteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC17582421906D1900E0060E /* BuvetteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuvetteUITests.swift; sourceTree = "<group>"; };
+		EC17582621906D1900E0060E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC17580921906CFD00E0060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC17581D21906D1900E0060E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC17580321906CFD00E0060E = {
+			isa = PBXGroup;
+			children = (
+				EC17580E21906CFE00E0060E /* Buvette */,
+				EC17582321906D1900E0060E /* BuvetteUITests */,
+				EC17580D21906CFD00E0060E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC17580D21906CFD00E0060E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC17580C21906CFD00E0060E /* Buvette.app */,
+				EC17582021906D1900E0060E /* BuvetteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC17580E21906CFE00E0060E /* Buvette */ = {
+			isa = PBXGroup;
+			children = (
+				EC17580F21906CFE00E0060E /* AppDelegate.swift */,
+				EC17581121906CFE00E0060E /* ViewController.swift */,
+				EC17581321906CFE00E0060E /* Main.storyboard */,
+				EC17581621906D1900E0060E /* Assets.xcassets */,
+				EC17581821906D1900E0060E /* LaunchScreen.storyboard */,
+				EC17581B21906D1900E0060E /* Info.plist */,
+			);
+			path = Buvette;
+			sourceTree = "<group>";
+		};
+		EC17582321906D1900E0060E /* BuvetteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC17582421906D1900E0060E /* BuvetteUITests.swift */,
+				EC17582621906D1900E0060E /* Info.plist */,
+			);
+			path = BuvetteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC17580B21906CFD00E0060E /* Buvette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC17582921906D1900E0060E /* Build configuration list for PBXNativeTarget "Buvette" */;
+			buildPhases = (
+				EC17580821906CFD00E0060E /* Sources */,
+				EC17580921906CFD00E0060E /* Frameworks */,
+				EC17580A21906CFD00E0060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Buvette;
+			productName = Buvette;
+			productReference = EC17580C21906CFD00E0060E /* Buvette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC17581F21906D1900E0060E /* BuvetteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC17582C21906D1900E0060E /* Build configuration list for PBXNativeTarget "BuvetteUITests" */;
+			buildPhases = (
+				EC17581C21906D1900E0060E /* Sources */,
+				EC17581D21906D1900E0060E /* Frameworks */,
+				EC17581E21906D1900E0060E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC17582221906D1900E0060E /* PBXTargetDependency */,
+			);
+			name = BuvetteUITests;
+			productName = BuvetteUITests;
+			productReference = EC17582021906D1900E0060E /* BuvetteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC17580421906CFD00E0060E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "L3P-IEM";
+				TargetAttributes = {
+					EC17580B21906CFD00E0060E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EC17581F21906D1900E0060E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EC17580B21906CFD00E0060E;
+					};
+				};
+			};
+			buildConfigurationList = EC17580721906CFD00E0060E /* Build configuration list for PBXProject "Buvette" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC17580321906CFD00E0060E;
+			productRefGroup = EC17580D21906CFD00E0060E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC17580B21906CFD00E0060E /* Buvette */,
+				EC17581F21906D1900E0060E /* BuvetteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC17580A21906CFD00E0060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC17581A21906D1900E0060E /* LaunchScreen.storyboard in Resources */,
+				EC17581721906D1900E0060E /* Assets.xcassets in Resources */,
+				EC17581521906CFE00E0060E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC17581E21906D1900E0060E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC17580821906CFD00E0060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC17581221906CFE00E0060E /* ViewController.swift in Sources */,
+				EC17581021906CFE00E0060E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC17581C21906D1900E0060E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC17582521906D1900E0060E /* BuvetteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC17582221906D1900E0060E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC17580B21906CFD00E0060E /* Buvette */;
+			targetProxy = EC17582121906D1900E0060E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC17581321906CFE00E0060E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC17581421906CFE00E0060E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC17581821906D1900E0060E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC17581921906D1900E0060E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC17582721906D1900E0060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC17582821906D1900E0060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC17582A21906D1900E0060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				INFOPLIST_FILE = Buvette/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.Buvette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC17582B21906D1900E0060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				INFOPLIST_FILE = Buvette/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.Buvette";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC17582D21906D1900E0060E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				INFOPLIST_FILE = BuvetteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.BuvetteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Buvette;
+			};
+			name = Debug;
+		};
+		EC17582E21906D1900E0060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYHLT42XGQ;
+				INFOPLIST_FILE = BuvetteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "L3P-IEM.BuvetteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Buvette;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC17580721906CFD00E0060E /* Build configuration list for PBXProject "Buvette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC17582721906D1900E0060E /* Debug */,
+				EC17582821906D1900E0060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC17582921906D1900E0060E /* Build configuration list for PBXNativeTarget "Buvette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC17582A21906D1900E0060E /* Debug */,
+				EC17582B21906D1900E0060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC17582C21906D1900E0060E /* Build configuration list for PBXNativeTarget "BuvetteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC17582D21906D1900E0060E /* Debug */,
+				EC17582E21906D1900E0060E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC17580421906CFD00E0060E /* Project object */;
+}
