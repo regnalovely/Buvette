@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EC17581021906CFE00E0060E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17580F21906CFE00E0060E /* AppDelegate.swift */; };
-		EC17581221906CFE00E0060E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17581121906CFE00E0060E /* ViewController.swift */; };
+		EC17581221906CFE00E0060E /* Connexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17581121906CFE00E0060E /* Connexion.swift */; };
 		EC17581521906CFE00E0060E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC17581321906CFE00E0060E /* Main.storyboard */; };
 		EC17581721906D1900E0060E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC17581621906D1900E0060E /* Assets.xcassets */; };
 		EC17581A21906D1900E0060E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC17581821906D1900E0060E /* LaunchScreen.storyboard */; };
 		EC17582521906D1900E0060E /* BuvetteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17582421906D1900E0060E /* BuvetteUITests.swift */; };
+		ECE8497721946157009925E3 /* ListeCommande.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8497621946157009925E3 /* ListeCommande.swift */; };
+		ECE84979219467A0009925E3 /* Accueil.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE84978219467A0009925E3 /* Accueil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +30,7 @@
 /* Begin PBXFileReference section */
 		EC17580C21906CFD00E0060E /* Buvette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buvette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC17580F21906CFE00E0060E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC17581121906CFE00E0060E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC17581121906CFE00E0060E /* Connexion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connexion.swift; sourceTree = "<group>"; usesTabs = 1; };
 		EC17581421906CFE00E0060E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC17581621906D1900E0060E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC17581921906D1900E0060E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		EC17582021906D1900E0060E /* BuvetteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuvetteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC17582421906D1900E0060E /* BuvetteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuvetteUITests.swift; sourceTree = "<group>"; };
 		EC17582621906D1900E0060E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE8497621946157009925E3 /* ListeCommande.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeCommande.swift; sourceTree = "<group>"; };
+		ECE84978219467A0009925E3 /* Accueil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accueil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		EC17580E21906CFE00E0060E /* Buvette */ = {
 			isa = PBXGroup;
 			children = (
-				EC17580F21906CFE00E0060E /* AppDelegate.swift */,
-				EC17581121906CFE00E0060E /* ViewController.swift */,
-				EC17581321906CFE00E0060E /* Main.storyboard */,
-				EC17581621906D1900E0060E /* Assets.xcassets */,
-				EC17581821906D1900E0060E /* LaunchScreen.storyboard */,
 				EC17581B21906D1900E0060E /* Info.plist */,
+				EC17581621906D1900E0060E /* Assets.xcassets */,
+				EC17580F21906CFE00E0060E /* AppDelegate.swift */,
+				ECE84978219467A0009925E3 /* Accueil.swift */,
+				EC17581121906CFE00E0060E /* Connexion.swift */,
+				ECE8497621946157009925E3 /* ListeCommande.swift */,
+				EC17581321906CFE00E0060E /* Main.storyboard */,
+				EC17581821906D1900E0060E /* LaunchScreen.storyboard */,
 			);
 			path = Buvette;
 			sourceTree = "<group>";
@@ -197,7 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC17581221906CFE00E0060E /* ViewController.swift in Sources */,
+				EC17581221906CFE00E0060E /* Connexion.swift in Sources */,
+				ECE8497721946157009925E3 /* ListeCommande.swift in Sources */,
+				ECE84979219467A0009925E3 /* Accueil.swift in Sources */,
 				EC17581021906CFE00E0060E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
