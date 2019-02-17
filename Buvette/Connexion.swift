@@ -40,9 +40,8 @@ class Connexion: UIViewController, UITextFieldDelegate {
 		return param
 	}
 	
-	func getTableUser(data:Data){
+	func getTableUser(data:NSDictionary){
 		let user = data[1]
-		print(data)
 		print(user)
 	}
 	
@@ -57,7 +56,9 @@ class Connexion: UIViewController, UITextFieldDelegate {
 		let tabParam = [
 			["name":"username", "value":username.text!],
 			["name":"password", "value":password.text!],
-			["name":"fonction", "value":"seConnecter"]
+			["name"
+				
+				:"fonction", "value":"seConnecter"]
 		]
 		
 		// Récupère la chaine de caractère
@@ -71,7 +72,13 @@ class Connexion: UIViewController, UITextFieldDelegate {
 				print("ERROR : \(String(describing: error))")
 				return
 			}
-			self.getTableUser(data: data!)
+			do {
+				if let json = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as? NSDictionary {
+					self.getTableUser(data: json)
+				}
+			} catch let error {
+				print(error.localizedDescription)
+			}
         })
         task.resume()
 		
